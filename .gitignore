@@ -1,0 +1,42 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+htmlcov/
+.coverage
+
+# Dev
+.python-version
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+
+# OS
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+
+# Docker
+*.log
+
+# Jupyter (if ever used)
+.ipynb_checkpoints/
